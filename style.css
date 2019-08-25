@@ -205,6 +205,18 @@ nav a:focus {
 	color: #ddd;
 }
 
+nav button{
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: transparent;
+	border-color: transparent;
+	font-size: .75rem;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+}
+
 @media (min-width: 60rem) {
 	.logo{
 		float: left;
