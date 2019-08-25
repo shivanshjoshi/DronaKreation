@@ -413,6 +413,45 @@ nav button{
 	padding: 5em 0;
 }
 
+/*Meet The Team
+================ */
+
+.team-column {
+  float: left;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (min-width: 60rem) {
+  .team-column {
+    width: 33.3334%;
+    display: block;
+  }
+}
+
+.team-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.team-container {
+  padding: 0 16px;
+}
+
+.team-container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.team-title {
+  color: grey;
+}
+
+.team-container p:last-child{
+	padding-bottom: 1em;
+}
+
 /* Footer
 ================= */
 
